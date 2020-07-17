@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Transaction extends Model
 {
-    protected $guarded = ['total'];
+    protected $guarded = '';
 
     public function user()
     {
